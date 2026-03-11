@@ -8,6 +8,7 @@ Trabajo práctico final, diseño de amplificador operacional con tecnologia MOS
 - dcg ganancia dc
 - pm margen de fase
 - gm margen de ganancia
+IMPORTANTE: MANTENER EL AR DE M6 y M3 SIMILARES 
 
 ### Primer contacto
 
@@ -31,7 +32,7 @@ Cambiar Vdd, Vcm, Iref, temperatura y modelos
 tiene que cumplir especificaciones para los 3 corners en los dos benches (6 simulaciones).  
 ahora cumplimos TT y FF, falta SS
 
-# param
+## param
 .iref = 100u
 .param vdd  = 1.8
 .param vss  = 0.0
@@ -50,3 +51,4 @@ ahora cumplimos TT y FF, falta SS
 .param l6   = 0.9
 .param m6   = 24
 .options TEMP = 65.0
+
