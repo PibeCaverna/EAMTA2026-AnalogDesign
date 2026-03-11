@@ -76,22 +76,23 @@ value="
 
 
 * Circuit Parameters
-.param iref = 100u
-.param vdd  = 1.8
+.param iref = 95u
+.param vdd  = 1.62
 .param vss  = 0.0
-.param vcm  = 0.8
+.param vcm  = 0.72
 .param vac  = 60m
-.param w857 = 1
-.param l857 = 0.15
-.param wpar = 1
+.param w857 = 15
+.param l857 = 0.9
+.param m857 = 1
+.param wpar = 20
 .param lpar = 0.35
-.param mpar = 1
-.param w34  = 1
-.param l34  = 0.15
-.param m34  = 1
-.param w6   = 1
-.param l6   = 0.15
-.param m6   = 1
+.param mpar = 4
+.param w34  = 5
+.param l34  = 0.3
+.param m34  = 2
+.param w6   = 20
+.param l6   = 0.9
+.param m6   = 24
 .options TEMP = 125.0
 
 * FFT Parameters
@@ -105,7 +106,7 @@ value="
 .csparam vac_fin  = \{vac_fin\}
 
 * Include Models
-.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib TT
+.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib SS
 
 * OP Parameters & Singals to save
 .save all

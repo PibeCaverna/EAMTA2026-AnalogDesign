@@ -69,10 +69,10 @@ N 1890 -30 1890 40 { lab=vss}
 N 1570 -190 1670 -190 {
 lab=voe1}
 N 1780 -190 1800 -190 {
-lab=voe1}
-N 1780 -190 1780 -90 {
-lab=voe1}
-N 1670 -90 1780 -90 {
+lab=#net1}
+N 1750 -190 1780 -190 {
+lab=#net1}
+N 1670 -190 1690 -190 {
 lab=voe1}
 C {sky130_fd_pr/nfet_01v8.sym} 1310 -65 0 1 {name=M3
 L=\{l34\}
@@ -143,7 +143,7 @@ C {lab_wire.sym} 1977.5 -240 0 0 {name=l8 sig_type=std_logic lab=vout
 C {lab_wire.sym} 1450 -65 0 0 {name=l6 sig_type=std_logic lab=vbn}
 C {sky130_fd_pr/nfet_01v8.sym} 1720 -210 1 0 {name=M9
 L=0.15
-W=4
+W=2
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
 as="'W * 0.29'" ps="'2 * (W + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
