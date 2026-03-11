@@ -76,7 +76,7 @@ value="
 
 
 * Circuit Parameters
-.param iref = 95u
+.param iref = 125u
 .param vdd  = 1.62
 .param vss  = 0.0
 .param vcm  = 0.72
@@ -87,9 +87,9 @@ value="
 .param wpar = 20
 .param lpar = 0.35
 .param mpar = 4
-.param w34  = 5
-.param l34  = 0.3
-.param m34  = 2
+.param w34  = 4
+.param l34  = 0.9
+.param m34  = 6
 .param w6   = 20
 .param l6   = 0.9
 .param m6   = 24

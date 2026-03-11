@@ -32,23 +32,64 @@ Cambiar Vdd, Vcm, Iref, temperatura y modelos
 tiene que cumplir especificaciones para los 3 corners en los dos benches (6 simulaciones).  
 ahora cumplimos TT y FF, falta SS
 
-## param
-.iref = 100u
-.param vdd  = 1.8
-.param vss  = 0.0
-.param vcm  = 0.8
-.param vac  = 60m
+## Parámetros
+
+´´´
 .param w857 = 15
 .param l857 = 0.9
 .param m857 = 1
 .param wpar = 20
 .param lpar = 0.35
 .param mpar = 4
-.param w34  = 5
-.param l34  = 0.3
-.param m34  = 2
+.param w34  = 4
+.param l34  = 0.9
+.param m34  = 6
 .param w6   = 20
 .param l6   = 0.9
 .param m6   = 24
-.options TEMP = 65.0
 
+´´´
+
+## Resultados
+
+### TT
+
+#### Open Loop
+$\omega_0 = 82.8e+06$  
+$K        = 54.25 db$  
+$pm       = 56.58°  $ 
+
+### Closed Loop
+
+$K        = 19.8 db  $
+$\omega_0 = 69.4e+06 $  
+$THD      = -52.46 db$  
+$onoise   = 5.85e-04 $  
+
+### FF
+
+#### Open Loop
+$\omega_0 = 73.2e+06$  
+$K        = 56.78 db$  
+$pm       = 61.86°  $ 
+
+### Closed Loop
+
+$K        = 19.8 db  $
+$\omega_0 = 64.71e+06$  
+$THD      = -64.43 db$  
+$onoise   = 5.54e-04 $  
+
+### SS
+
+#### Open Loop
+$\omega_0 = 85.65e+06$  
+$K        = 51.38 db $  
+$pm       = 16.68°   $ 
+
+### Closed Loop
+
+$K        = 19.7 db  $
+$\omega_0 = 87.83e+06$  
+$THD      = -39.34 db$  
+$onoise   = 7.75e-04 $  
