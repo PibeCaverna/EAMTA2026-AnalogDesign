@@ -88,10 +88,7 @@ value="
 
 
 * Circuit Parameters
-.param iref = 95u
-.param vdd  = 1.62
 .param vss  = 0.0
-.param vcm  = 0.72
 .param vac  = 60m
 .param w857 = 15
 .param l857 = 0.9
@@ -105,10 +102,15 @@ value="
 .param w6   = 20
 .param l6   = 0.9
 .param m6   = 24
-.options TEMP = 125.0
+
+* Corner Dependant Parameters
+.param vdd  = 1.8
+.param vcm  = 0.8
+.param iref = 100u
+.options TEMP = 65.0
 
 * Include Models
-.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib SS
+.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib TT
 
 * OP Parameters & Singals to save
 .save all

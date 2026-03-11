@@ -142,13 +142,13 @@ C {lab_wire.sym} 1977.5 -240 0 0 {name=l8 sig_type=std_logic lab=vout
 }
 C {lab_wire.sym} 1450 -65 0 0 {name=l6 sig_type=std_logic lab=vbn}
 C {sky130_fd_pr/nfet_01v8.sym} 1720 -210 1 0 {name=M9
-L=0.15
+L=0.25
 W=2
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
 as="'W * 0.29'" ps="'2 * (W + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
-nf=1 mult=1
+nf=1 mult=3
 model=nfet_01v8
 spiceprefix=X
 }

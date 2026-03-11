@@ -34,7 +34,7 @@ ahora cumplimos TT y FF, falta SS
 
 ## Parámetros
 
-´´´
+```
 .param w857 = 15
 .param l857 = 0.9
 .param m857 = 1
@@ -48,48 +48,58 @@ ahora cumplimos TT y FF, falta SS
 .param l6   = 0.9
 .param m6   = 24
 
-´´´
+```
+### Compensación
+
+```
+M9
+L = 0.25 W = 2
+nf = 1 mult = 3
+
+C1
+m = 1 value = 2p
+```
 
 ## Resultados
 
 ### TT
 
 #### Open Loop
-$\omega_0 = 82.8e+06$  
-$K        = 54.25 db$  
-$pm       = 56.58°  $ 
+$\omega_0 = 63.82 Mhz$  
+$K        = 54.42 db$  
+$pm       = 53.68°  $ 
 
 ### Closed Loop
 
-$K        = 19.8 db  $
-$\omega_0 = 69.4e+06 $  
+$K        = 19.81 db $
+$\omega_0 = 66.36 Mhz$  
 $THD      = -52.46 db$  
-$onoise   = 5.85e-04 $  
+$onoise   = 585 \mu V$  
 
 ### FF
 
 #### Open Loop
-$\omega_0 = 73.2e+06$  
-$K        = 56.78 db$  
-$pm       = 61.86°  $ 
+$\omega_0 = N/A$  
+$K        = N/A$  
+$pm       = N/A$ 
 
 ### Closed Loop
 
-$K        = 19.8 db  $
-$\omega_0 = 64.71e+06$  
-$THD      = -64.43 db$  
-$onoise   = 5.54e-04 $  
+$K        = N/A$
+$\omega_0 = N/A$  
+$THD      = N/A$  
+$onoise   = N/A$  
 
 ### SS
 
 #### Open Loop
-$\omega_0 = 85.65e+06$  
-$K        = 51.38 db $  
-$pm       = 16.68°   $ 
+$\omega_0 = N/A$  
+$K        = N/A$  
+$pm       = N/A$ 
 
 ### Closed Loop
 
-$K        = 19.7 db  $
-$\omega_0 = 87.83e+06$  
-$THD      = -39.34 db$  
-$onoise   = 7.75e-04 $  
+$K        = N/A$
+$\omega_0 = N/A$
+$THD      = N/A$
+$onoise   = N/A$

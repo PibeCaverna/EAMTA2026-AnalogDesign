@@ -76,10 +76,7 @@ value="
 
 
 * Circuit Parameters
-.param iref = 125u
-.param vdd  = 1.62
 .param vss  = 0.0
-.param vcm  = 0.72
 .param vac  = 60m
 .param w857 = 15
 .param l857 = 0.9
@@ -93,7 +90,12 @@ value="
 .param w6   = 20
 .param l6   = 0.9
 .param m6   = 24
-.options TEMP = 125.0
+
+* Corner Dependant Parameters
+.param vdd    = 1.8
+.param vcm    = 0.8
+.param iref   = 100u
+.options TEMP = 65.0
 
 * FFT Parameters
 .param Ts_FFT     = 1e-9
