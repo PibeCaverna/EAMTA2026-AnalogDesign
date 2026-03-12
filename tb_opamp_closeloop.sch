@@ -81,14 +81,14 @@ value="
 .param w857 = 15
 .param l857 = 0.9
 .param m857 = 1
-.param wpar = 40
-.param lpar = 0.35
-.param mpar = 8
+.param wpar = 45
+.param lpar = 0.45
+.param mpar = 20
 .param w34  = 4
-.param l34  = 0.9
-.param m34  = 6
+.param l34  = 2
+.param m34  = 4
 .param w6   = 20
-.param l6   = 0.9
+.param l6   = 1.5
 .param m6   = 24
 
 * Corner Dependant Parameters

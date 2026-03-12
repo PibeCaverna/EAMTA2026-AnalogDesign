@@ -38,14 +38,14 @@ ahora cumplimos TT y FF, falta SS
 .param w857 = 15
 .param l857 = 0.9
 .param m857 = 1
-.param wpar = 20
-.param lpar = 0.35
-.param mpar = 4
+.param wpar = 45
+.param lpar = 0.45
+.param mpar = 20
 .param w34  = 4
-.param l34  = 0.9
-.param m34  = 6
+.param l34  = 2
+.param m34  = 4
 .param w6   = 20
-.param l6   = 0.9
+.param l6   = 1.5
 .param m6   = 24
 
 ```
@@ -66,15 +66,15 @@ m = 1 value = 2p
 
 #### Open Loop
 $\omega_0 = 63.82 Mhz$  
-$K        = 54.42 db$  
-$pm       = 53.68°  $ 
+$K        = 54.24 db$  
+$pm       = 63°     $ 
 
 ### Closed Loop
 
-$K        = 19.81 db $
-$\omega_0 = 66.36 Mhz$  
-$THD      = -52.46 db$  
-$onoise   = 585 \mu V$  
+$K        = 19.82 db $
+$\omega_0 = 61.36 Mhz$  
+$THD      = -45.10 db$  
+$onoise   = 324 \mu V$  
 
 ### FF
 
