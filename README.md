@@ -65,9 +65,9 @@ m = 1 value = 2p
 ### TT
 
 #### Open Loop
-$\omega_0 = 63.82 Mhz$  
-$K        = 54.24 db$  
-$pm       = 63°     $ 
+$\omega_0 = 60.59 Mhz$  
+$K        = 54.44 db$  
+$pm       = 30°     $ 
 
 ### Closed Loop
 
