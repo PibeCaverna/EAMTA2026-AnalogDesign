@@ -45,7 +45,7 @@ ahora cumplimos TT y FF, falta SS
 .param l34  = 2
 .param m34  = 4
 .param w6   = 20
-.param l6   = 1.5
+.param l6   = 1
 .param m6   = 24
 
 ```
@@ -53,11 +53,11 @@ ahora cumplimos TT y FF, falta SS
 
 ```
 M9
-L = 0.25 W = 2
+L = 0.4 W = 3
 nf = 1 mult = 3
 
 C1
-m = 1 value = 2p
+m = 1 value = 3.3p
 ```
 
 ## Resultados
@@ -65,41 +65,41 @@ m = 1 value = 2p
 ### TT
 
 #### Open Loop
-$\omega_0 = 60.59 Mhz$  
-$K        = 54.44 db$  
-$pm       = 30°     $ 
+$\omega_0 = 62.38 Mhz$  
+$K        = 55.92 db$  
+$pm       = 62°     $ 
 
 ### Closed Loop
 
-$K        = 19.82 db $
-$\omega_0 = 61.36 Mhz$  
-$THD      = -45.10 db$  
-$onoise   = 324 \mu V$  
+$K        = 19.84 db $
+$\omega_0 = 52.9 Mhz$  
+$THD      = -51.44 db$  
+$onoise   = 271 \mu V$  
 
 ### FF
 
 #### Open Loop
-$\omega_0 = N/A$  
-$K        = N/A$  
-$pm       = N/A$ 
+$\omega_0 = 62.12 MHz$  
+$K        = 58.99 db $  
+$pm       = 56.76°   $ 
 
 ### Closed Loop
 
-$K        = N/A$
-$\omega_0 = N/A$  
-$THD      = N/A$  
-$onoise   = N/A$  
+$K        = 19.89 db $
+$\omega_0 = 54.61 MHz$  
+$THD      = -63.9 db $  
+$onoise   = 256 \mu V$  
 
 ### SS
 
 #### Open Loop
-$\omega_0 = N/A$  
-$K        = N/A$  
-$pm       = N/A$ 
+$\omega_0 = 65.94 MHz$  
+$K        = 46.79 db $  
+$pm       = 42.20°   $  
 
 ### Closed Loop
 
-$K        = N/A$
-$\omega_0 = N/A$
-$THD      = N/A$
-$onoise   = N/A$
+$K        = 19.69 db $  
+$\omega_0 = 58.8 MHz $  
+$THD      = -38.65 db$  
+$onoise   = -nan     $  

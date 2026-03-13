@@ -142,8 +142,8 @@ C {lab_wire.sym} 1977.5 -240 0 0 {name=l8 sig_type=std_logic lab=vout
 }
 C {lab_wire.sym} 1450 -65 0 0 {name=l6 sig_type=std_logic lab=vbn}
 C {sky130_fd_pr/nfet_01v8.sym} 1720 -210 1 0 {name=M9
-L=0.25
-W=2
+L=0.4
+W=3
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
 as="'W * 0.29'" ps="'2 * (W + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
@@ -229,7 +229,7 @@ spiceprefix=X
 }
 C {capa.sym} 1830 -190 3 0 {name=C1
 m=1
-value=2p
+value=3.3p
 footprint=1206
 device="ceramic capacitor"}
 C {ngspice_get_value.sym} 1070 -280 0 0 {name=r1 node=v(@M.X1.XM8.msky130_fd_pr__pfet_01v8[vgs])

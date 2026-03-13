@@ -100,17 +100,17 @@ value="
 .param l34  = 2
 .param m34  = 4
 .param w6   = 20
-.param l6   = 1.5
+.param l6   = 1
 .param m6   = 24
 
 * Corner Dependant Parameters
-.param vdd  = 1.8
-.param vcm  = 0.8
-.param iref = 100u
-.options TEMP = 65.0
+.param vdd  = 1.62
+.param vcm  = 0.72
+.param iref = 95u
+.options TEMP = 125.0
 
 * Include Models
-.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib TT
+.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib SS
 
 * OP Parameters & Singals to save
 .save all
