@@ -229,7 +229,7 @@ spiceprefix=X
 }
 C {capa.sym} 1830 -190 3 0 {name=C1
 m=1
-value=3.3p
+value=3.8p
 footprint=1206
 device="ceramic capacitor"}
 C {ngspice_get_value.sym} 1070 -280 0 0 {name=r1 node=v(@M.X1.XM8.msky130_fd_pr__pfet_01v8[vgs])
