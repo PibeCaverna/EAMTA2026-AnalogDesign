@@ -7,7 +7,7 @@ Trabajo práctico final, diseño de amplificador operacional con tecnologia MOS
 ```
 .param w857 = 15
 .param l857 = 0.9
-.param m857 = 1
+.param m857 = 1.2
 .param wpar = 30
 .param lpar = 0.45
 .param mpar = 15
@@ -15,8 +15,8 @@ Trabajo práctico final, diseño de amplificador operacional con tecnologia MOS
 .param l34  = 2
 .param m34  = 6
 .param w6   = 20
-.param l6   = 1
-.param m6   = 10
+.param l6   = 1.5
+.param m6   = 15
 
 ```
 ### Compensación
@@ -36,21 +36,21 @@ m = 1 value = 3.8p
 
 |          |TT       |FF       |SS       |
 |:--------:|--------:|--------:|--------:|
-|$\omega_0$|81.04 MHz|55.18 MHz|93.93 MHz|
-|K         |52.14 db |55.46 db |46.18 db |
-|pm        |62.59°   |66.63°   |-24.87°  |
+|$\omega_0$|78.02 MHz|61.95 MHz|69.31 MHz|
+|K         |53.11 db |56.13 db |47.19 db |
+|pm        |25°      |60.07°   |49.06°   |
 
 ### Closed Loop
 
 |          |TT       |FF       |SS       |
 |:--------:|--------:|--------:|--------:|
-|K         |19.74 db |19.83 db |19.49 db |
-|$\omega_0$|65.94 MHz|49.28 MHz|83.79 MHz|
-|THD       |-45.51 db|-58.80 db|-32.17 db|
-|onoise    |298 uV   |272 uV   |-nan     |
+|K         |19.77 db |19.84 db |19.55 db |
+|$\omega_0$|71.03 MHz|54.14 MHz|64.29 MHz|
+|THD       |-43.60 db|-56.74 db|-29.71 db|
+|onoise    |310 uV   |270 uV   |494 uV   |
 
 ## Conclusiones
 
-Hay que corregir el thd en TT  
-Está caida la w0 dde FF en ambos loops  
-le falta ganancia a SS, el pm está negativo  
+En TT hay que acomodar pm y thd  
+En FF hay que acomodar $\omega_0$ en cl 
+En SS hay que acomodar ruido, thd pm y gain  
