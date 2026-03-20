@@ -108,7 +108,7 @@ value="
 .csparam vac_fin  = \{vac_fin\}
 
 * Include Models
-.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib SS
+.lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/corners/sky130.lib TT
 
 * OP Parameters & Singals to save
 .save all
